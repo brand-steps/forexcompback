@@ -18,7 +18,7 @@ import { signalModel } from "./Models/User.js";
 import { managerModel } from "./Models/User.js";
 import { mentorModel } from "./Models/User.js";
 import Stripe from "stripe";
-const stripe = Stripe('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');
+const stripe = Stripe('');
 app.use(cookieParser());
 app.use(express.urlencoded({ extended: false }));
 //app.use(cors({origin: true, credentials: true}));
